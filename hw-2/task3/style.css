@@ -1,0 +1,17 @@
+.box {
+    margin: 0 auto;
+    margin-top: 200px;
+    font-size: 100px;
+    color: rgb(45, 78, 100);
+    opacity: 0.5;
+    width: 300px;
+    height: 150px;
+    transition:  background-color 2s, transform 5s;
+}
+
+.box:hover {
+    color: rgb(45, 78, 255);
+    opacity: 1;
+    transform: rotateX(360deg);
+}
+
