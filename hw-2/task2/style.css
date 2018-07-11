@@ -64,6 +64,9 @@ div.column {
 	height: 100%;
 	width: 32%;
 	border: 1px solid grey;
+	justify-content: center;
+    align-items: center;
+
 }
 
 
@@ -157,8 +160,9 @@ form * {
     align-items: center;
 }
 
-div.center h3.text, div h5.text {
-	text-align: center;
+div.column div.text {
+	justify-content: center;
+    align-items: center;
 }
 
 
